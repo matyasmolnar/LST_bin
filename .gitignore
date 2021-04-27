@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+__pycache__/
+*test*
+*.out
+binned_files/
+hera_cal/
+*.mf
+*.log
+*.makeflowlog
+task_scripts/
