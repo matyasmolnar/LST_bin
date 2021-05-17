@@ -2,7 +2,7 @@
 makeflow_type = "lstbin"
 path_to_do_scripts = "/lustre/aoc/projects/hera/mmolnar/LST_bin/task_scripts"
 source_script = "~/.zshrc"
-conda_env = "lst_bin"
+conda_env = "xd_flags"
 base_mem = 80000
 base_cpu = 4
 timeout = "48h"
