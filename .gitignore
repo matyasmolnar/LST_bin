@@ -8,3 +8,7 @@ hera_cal/
 *.log
 *.makeflowlog
 task_scripts/
+wrapper_lstbin_outfile_*
+makeflow.failed.*
+torque.status.*
+torque.wrapper
