@@ -20,8 +20,8 @@ lst_start = 0.0
 fixed_lst_start = "True"
 vis_units = "Jy"
 parallelize = "True"
-file_ext = "grp1.of1.{type}.{time:7.5f}.HH.OCRSL.uvh5"
-outdir = "/lustre/aoc/projects/hera/mmolnar/LST_bin/binned_files"
+file_ext = "grp1.of1.{type}.{time:7.5f}.HH.OCRSLX.uvh5"
+outdir = "/lustre/aoc/projects/hera/mmolnar/LST_bin/binned_files/xdrc_flg_binned"
 parent_dir = "/lustre/aoc/projects/hera/mmolnar/LST_bin"
 data_files = ["/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458098/zen.2458098.*.HH.uvh5",
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458099/zen.2458099.*.HH.uvh5",
