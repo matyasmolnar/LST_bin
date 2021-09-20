@@ -2,26 +2,26 @@
 makeflow_type = "lstbin"
 path_to_do_scripts = "/lustre/aoc/projects/hera/mmolnar/LST_bin/task_scripts"
 source_script = "~/.zshrc"
-conda_env = "xd_flags"
-base_mem = 80000
-base_cpu = 4
-timeout = "48h"
+conda_env = "lst_bin"
+base_mem = 256000
+base_cpu = 8
+timeout = "72h"
 pbs_mail_user = "mdm49@cam.ac.uk"
 
 [LSTBIN_OPTS]
-sig_clip = "True"
+sig_clip = "False"
 Nbls_to_load = 150
 sigma = 4
 min_N = 5
 rephase = "True"
-ntimes_per_file = 60
+ntimes_per_file = 30
 dlst = 0.001565970008
 lst_start = 0.0
 fixed_lst_start = "True"
 vis_units = "Jy"
 parallelize = "True"
-file_ext = "grp1.of1.{type}.{time:7.5f}.HH.OCRSLX.uvh5"
-outdir = "/lustre/aoc/projects/hera/mmolnar/LST_bin/binned_files/xdrc_flg_binned"
+file_ext = "grp1.of1.{type}.{time:7.5f}.HH.OCRSLU.uvh5"
+outdir = "/lustre/aoc/projects/hera/mmolnar/LST_bin/binned_files/no_avg"
 parent_dir = "/lustre/aoc/projects/hera/mmolnar/LST_bin"
 data_files = ["/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458098/zen.2458098.*.HH.uvh5",
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458099/zen.2458099.*.HH.uvh5",
