@@ -1,7 +1,7 @@
 [Options]
 makeflow_type = "lstbin"
 path_to_do_scripts = "/lustre/aoc/projects/hera/mmolnar/LST_bin/task_scripts"
-source_script = "~/.zshrc"
+source_script = "~/.bashrc"
 conda_env = "lst_bin"
 base_mem = 256000
 base_cpu = 8
@@ -33,6 +33,7 @@ data_files = ["/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458098/zen.2458098.*.H
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458106/zen.2458106.*.HH.uvh5",
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458107/zen.2458107.*.HH.uvh5",
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458108/zen.2458108.*.HH.uvh5",
+             "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458109/zen.2458109.*.HH.uvh5",
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458110/zen.2458110.*.HH.uvh5",
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458111/zen.2458111.*.HH.uvh5",
              "/lustre/aoc/projects/hera/H1C_IDR2/IDR2_2/2458112/zen.2458112.*.HH.uvh5",
